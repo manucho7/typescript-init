@@ -1,2 +1,3 @@
+"use strict";
 console.log('hola mundo!!!!!');
-var day = 'friday';
+var day = 'friday!!!! mtfkss!';
