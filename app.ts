@@ -60,13 +60,26 @@
 
 //ARREGLOS
 
-let array: number[] = [1, 2, 4, 5, 7, 8, 456, 856];
-array.push(123);
+// let array: number[] = [1, 2, 4, 5, 7, 8, 456, 856];
+// array.push(123);
 
-console.log(array);
+// console.log(array);
 
-let arrayVillanos: string[] = ["Omega Rojo", "Duende Verde"];
-arrayVillanos.push("El Ruso");
+// let arrayVillanos: string[] = ["Omega Rojo", "Duende Verde"];
+// arrayVillanos.push("El Ruso");
 
-console.log(arrayVillanos[0].charAt(1));
-console.log(arrayVillanos);
+// console.log(arrayVillanos[0].charAt(1));
+// console.log(arrayVillanos);
+
+//Objetos basicos
+let flash: { nombre: string, edad: number, poderes: string[] } = {
+  nombre: "Barry Allen",
+  edad: 24,
+  poderes: ["puede correr muy rapido", "viajar por el tiempo"],
+  getNombre() {
+    return this.nombre;
+  }
+};
+
+console.log(flash.getNombre();)
+

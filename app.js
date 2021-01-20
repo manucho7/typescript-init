@@ -36,10 +36,20 @@
 // vengador = true
 // console.log(vengador);
 //ARREGLOS
-var array = [1, 2, 4, 5, 7, 8, 456, 856];
-array.push(123);
-console.log(array);
-var arrayVillanos = ["Omega Rojo", "Duende Verde"];
-arrayVillanos.push("El Ruso");
-console.log(arrayVillanos[0].charAt(1));
-console.log(arrayVillanos);
+// let array: number[] = [1, 2, 4, 5, 7, 8, 456, 856];
+// array.push(123);
+// console.log(array);
+// let arrayVillanos: string[] = ["Omega Rojo", "Duende Verde"];
+// arrayVillanos.push("El Ruso");
+// console.log(arrayVillanos[0].charAt(1));
+// console.log(arrayVillanos);
+//Objetos basicos
+var flash = {
+    nombre: "Barry Allen",
+    edad: 24,
+    poderes: ["puede correr muy rapido", "viajar por el tiempo"],
+    getNombre: function () {
+        return this.nombre;
+    }
+};
+console.log(flash.getNombre());
