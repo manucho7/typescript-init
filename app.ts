@@ -1,6 +1,6 @@
 
 //ALGO DE BOOLEANS
-let day: string = 'friday';
+// let day: string = 'friday';
 
 // let superman: boolean = true;
 
@@ -10,10 +10,10 @@ let day: string = 'friday';
 
 //ALGO DE NUMBERS
 
-let avengers: number = 5;
-let villanos: number = 2;
+// let avengers: number = 5;
+// let villanos: number = 2;
 
-let otros = 2;
+// let otros = 2;
 
 // if (avengers > villanos) {
 //   console.log('estamos salvados');
@@ -45,15 +45,28 @@ let otros = 2;
 
 //Trabajando con tipo de dato ANY
 
-let vengador: any = "superman";
-let existe;
-let derrotas;
+// let vengador: any = "superman";
+// let existe;
+// let derrotas;
 
-vengador = 'Dr. Strange';
-console.log(vengador.charAt(0));
+// vengador = 'Dr. Strange';
+// console.log(vengador.charAt(0));
 
-vengador = 150.5586854;
-console.log(vengador.toFixed(2));
+// vengador = 150.5586854;
+// console.log(vengador.toFixed(2));
 
-vengador = true
-console.log(vengador);
+// vengador = true
+// console.log(vengador);
+
+//ARREGLOS
+
+let array: number[] = [1, 2, 4, 5, 7, 8, 456, 856];
+array.push(123);
+
+console.log(array);
+
+let arrayVillanos: string[] = ["Omega Rojo", "Duende Verde"];
+arrayVillanos.push("El Ruso");
+
+console.log(arrayVillanos[0].charAt(1));
+console.log(arrayVillanos);

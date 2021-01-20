@@ -1,13 +1,13 @@
 "use strict";
 //ALGO DE BOOLEANS
-var day = 'friday';
+// let day: string = 'friday';
 // let superman: boolean = true;
 // let batman: boolean;
 // let aquaman: boolean = true;
 //ALGO DE NUMBERS
-var avengers = 5;
-var villanos = 2;
-var otros = 2;
+// let avengers: number = 5;
+// let villanos: number = 2;
+// let otros = 2;
 // if (avengers > villanos) {
 //   console.log('estamos salvados');
 // } else {
@@ -26,12 +26,20 @@ var otros = 2;
 // console.log(concatenar);
 // console.log(concat);
 //Trabajando con tipo de dato ANY
-var vengador = "superman";
-var existe;
-var derrotas;
-vengador = 'Dr. Strange';
-console.log(vengador.charAt(0));
-vengador = 150.5586854;
-console.log(vengador.toFixed(2));
-vengador = true;
-console.log(vengador);
+// let vengador: any = "superman";
+// let existe;
+// let derrotas;
+// vengador = 'Dr. Strange';
+// console.log(vengador.charAt(0));
+// vengador = 150.5586854;
+// console.log(vengador.toFixed(2));
+// vengador = true
+// console.log(vengador);
+//ARREGLOS
+var array = [1, 2, 4, 5, 7, 8, 456, 856];
+array.push(123);
+console.log(array);
+var arrayVillanos = ["Omega Rojo", "Duende Verde"];
+arrayVillanos.push("El Ruso");
+console.log(arrayVillanos[0].charAt(1));
+console.log(arrayVillanos);
