@@ -47,9 +47,6 @@
 var flash = {
     nombre: "Barry Allen",
     edad: 24,
-    poderes: ["puede correr muy rapido", "viajar por el tiempo"],
-    getNombre: function () {
-        return this.nombre;
-    }
+    poderes: ["puede correr muy rapido", "viajar por el tiempo"]
 };
-console.log(flash.getNombre());
+console.log(flash);

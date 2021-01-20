@@ -75,11 +75,7 @@
 let flash: { nombre: string, edad: number, poderes: string[] } = {
   nombre: "Barry Allen",
   edad: 24,
-  poderes: ["puede correr muy rapido", "viajar por el tiempo"],
-  getNombre() {
-    return this.nombre;
-  }
+  poderes: ["puede correr muy rapido", "viajar por el tiempo"]
 };
 
-console.log(flash.getNombre();)
-
+console.log(flash);
