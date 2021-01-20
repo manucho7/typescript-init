@@ -1,26 +1,27 @@
 
-console.log('hola mundo!!!!!');
-
+//ALGO DE BOOLEANS
 let day: string = 'friday';
 
 let superman: boolean = true;
 
 let batman: boolean;
 
-let aquaman: boolean = true
+let aquaman: boolean = true;
 
-console.log(day);
+//ALGO DE NUMBERS
 
-if (superman) {
-  console.log('estamos salvados')
+let avengers: number = 5;
+let villanos: number = 2;
+
+let otros = 2;
+
+if (avengers > villanos) {
+  console.log('estamos salvados');
 } else {
-  console.log('oopsy');
+  console.log('estamos muertos xD');
 }
 
-superman = false;
+otros = 123.2
 
-function convertirClark() {
-  return 'hola';
-}
+//ALGO DE STRINGS
 
-convertirClark()

@@ -1,18 +1,18 @@
 "use strict";
-console.log('hola mundo!!!!!');
+//ALGO DE BOOLEANS
 var day = 'friday';
 var superman = true;
 var batman;
 var aquaman = true;
-console.log(day);
-if (superman) {
+//ALGO DE NUMBERS
+var avengers = 5;
+var villanos = 2;
+var otros = 2;
+if (avengers > villanos) {
     console.log('estamos salvados');
 }
 else {
-    console.log('oopsy');
+    console.log('estamos muertos xD');
 }
-superman = false;
-function convertirClark() {
-    return 'hola';
-}
-convertirClark();
+otros = 123.2;
+//ALGO DE STRINGS
