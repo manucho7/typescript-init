@@ -71,11 +71,30 @@
 // console.log(arrayVillanos[0].charAt(1));
 // console.log(arrayVillanos);
 
-//Objetos basicos
-let flash: { nombre: string, edad: number, poderes: string[] } = {
-  nombre: "Barry Allen",
-  edad: 24,
-  poderes: ["puede correr muy rapido", "viajar por el tiempo"]
+//Definicion de un tipo
+type Heroe = {
+    nombre: string,
+    edad: number,
+    poderes: any[],
+    getNombre: () => string,
+}
+//Objetos basicos basados en el type Heroe
+let flash: Heroe = {
+    nombre: "Barry Allen",
+    edad: 24,
+    poderes: ["puede correr muy rapido", "viajar por el tiempo"],
+    getNombre() {
+      return this.nombre
+    }
+};
+let superman: Heroe = {
+    nombre: "Clark Kent",
+    edad: 500,
+    poderes: ["puede correr muy rapido", "volar"],
+    getNombre() {
+      return this.nombre
+    }
 };
 
 console.log(flash);
+console.log(superman);
