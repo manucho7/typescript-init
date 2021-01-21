@@ -87,6 +87,7 @@ let flash: Heroe = {
       return this.nombre
     }
 };
+
 let superman: Heroe = {
     nombre: "Clark Kent",
     edad: 500,
